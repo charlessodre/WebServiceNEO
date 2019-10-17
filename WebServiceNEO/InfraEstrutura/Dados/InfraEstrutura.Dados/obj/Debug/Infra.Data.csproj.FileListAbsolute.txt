@@ -1,0 +1,72 @@
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll.config
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll.config
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Data.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Domain.Interfaces.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\EntityFramework.SqlServer.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\bin\Debug\NLog.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infra.Data.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Dados\InfraEstrutura.Dados\obj\Debug\Infrastructure.Data.pdb

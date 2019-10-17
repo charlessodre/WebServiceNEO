@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="STAGING_NEO_FUNRIOModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="Dim_Aluno_Preceptor">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Aluno_Preceptor">
+        <MappingFragment StoreEntitySet="Dim_Aluno_Preceptor">
+          <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+          <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+          <ScalarProperty Name="nome_aluno_preceptor" ColumnName="nome_aluno_preceptor" />
+          <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+          <ScalarProperty Name="datamatricula_aluno" ColumnName="datamatricula_aluno" />
+          <ScalarProperty Name="genero_aluno" ColumnName="genero_aluno" />
+          <ScalarProperty Name="datanasc_aluno" ColumnName="datanasc_aluno" />
+          <ScalarProperty Name="cpf_aluno" ColumnName="cpf_aluno" />
+          <ScalarProperty Name="aluno_situacao" ColumnName="aluno_situacao" />
+          <ScalarProperty Name="data_inativacao" ColumnName="data_inativacao" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Aula">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Aula">
+        <MappingFragment StoreEntitySet="Dim_Aula">
+          <ScalarProperty Name="id_aula" ColumnName="id_aula" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+          <ScalarProperty Name="titulo_aula" ColumnName="titulo_aula" />
+          <ScalarProperty Name="atividades_aula" ColumnName="atividades_aula" />
+          <ScalarProperty Name="data_aula" ColumnName="data_aula" />
+          <ScalarProperty Name="tipo_aula" ColumnName="tipo_aula" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+          <ScalarProperty Name="data_fim_aula" ColumnName="data_fim_aula" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Curso">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Curso">
+        <MappingFragment StoreEntitySet="Dim_Curso">
+          <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+          <ScalarProperty Name="nome_curso" ColumnName="nome_curso" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Especialidade">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Especialidade">
+        <MappingFragment StoreEntitySet="Dim_Especialidade">
+          <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+          <ScalarProperty Name="nome_especialidade" ColumnName="nome_especialidade" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Hospital">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Hospital">
+        <MappingFragment StoreEntitySet="Dim_Hospital">
+          <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+          <ScalarProperty Name="nome_hospital" ColumnName="nome_hospital" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Modulo">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Modulo">
+        <MappingFragment StoreEntitySet="Dim_Modulo">
+          <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+          <ScalarProperty Name="nome_modulo" ColumnName="nome_modulo" />
+          <ScalarProperty Name="datainicio_modulo" ColumnName="datainicio_modulo" />
+          <ScalarProperty Name="datafim_modulo" ColumnName="datafim_modulo" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Professor">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Professor">
+        <MappingFragment StoreEntitySet="Dim_Professor">
+          <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+          <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+          <ScalarProperty Name="nome_professor" ColumnName="nome_professor" />
+          <ScalarProperty Name="genero_professor" ColumnName="genero_professor" />
+          <ScalarProperty Name="datanascimento_professor" ColumnName="datanascimento_professor" />
+          <ScalarProperty Name="cpf_professor" ColumnName="cpf_professor" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Dim_Turma">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Turma">
+        <MappingFragment StoreEntitySet="Dim_Turma">
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="nome_turma" ColumnName="nome_turma" />
+          <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+          <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+          <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fato_Avaliacao">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Avaliacao">
+        <MappingFragment StoreEntitySet="Fato_Avaliacao">
+          <ScalarProperty Name="id_avaliacao" ColumnName="id_avaliacao" />
+          <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+          <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+          <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+          <ScalarProperty Name="nota1_avaliacao" ColumnName="nota1_avaliacao" />
+          <ScalarProperty Name="nota2_avaliacao" ColumnName="nota2_avaliacao" />
+          <ScalarProperty Name="notaaf2_avaliacao" ColumnName="notaaf2_avaliacao" />
+          <ScalarProperty Name="nota3_avaliacao" ColumnName="nota3_avaliacao" />
+          <ScalarProperty Name="nota4_recuperacao" ColumnName="nota4_recuperacao" />
+          <ScalarProperty Name="notafinal_avaliacao" ColumnName="notafinal_avaliacao" />
+          <ScalarProperty Name="resultado" ColumnName="resultado" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fato_Permanencia_Plataforma">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Permanencia_Plataforma">
+        <MappingFragment StoreEntitySet="Fato_Permanencia_Plataforma">
+          <ScalarProperty Name="data_entrada" ColumnName="data_entrada" />
+          <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+          <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="data_saida" ColumnName="data_saida" />
+          <ScalarProperty Name="tempo_permanencia" ColumnName="tempo_permanencia" />
+          <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fato_Plantao">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Plantao">
+        <MappingFragment StoreEntitySet="Fato_Plantao">
+          <ScalarProperty Name="id_plantao" ColumnName="id_plantao" />
+          <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+          <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="escalainicio_plantao" ColumnName="escalainicio_plantao" />
+          <ScalarProperty Name="escalafim_plantao" ColumnName="escalafim_plantao" />
+          <ScalarProperty Name="marcacaoinicio_plantao" ColumnName="marcacaoinicio_plantao" />
+          <ScalarProperty Name="marcacaofim_plantao" ColumnName="marcacaofim_plantao" />
+          <ScalarProperty Name="duracao_plantao" ColumnName="duracao_plantao" />
+          <ScalarProperty Name="efetivo_plantao" ColumnName="efetivo_plantao" />
+          <ScalarProperty Name="abono_ds" ColumnName="abono_ds" />
+          <ScalarProperty Name="abono_falta" ColumnName="abono_falta" />
+          <ScalarProperty Name="abono_bolsa" ColumnName="abono_bolsa" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fato_Presenca">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Presenca">
+        <MappingFragment StoreEntitySet="Fato_Presenca">
+          <ScalarProperty Name="id_aula" ColumnName="id_aula" />
+          <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+          <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+          <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+          <ScalarProperty Name="realizada_presenca" ColumnName="realizada_presenca" />
+          <ScalarProperty Name="datahora_presenca" ColumnName="datahora_presenca" />
+          <ScalarProperty Name="qtd_atividades_disponiveis" ColumnName="qtd_atividades_disponiveis" />
+          <ScalarProperty Name="qtd_atividades_realizadas" ColumnName="qtd_atividades_realizadas" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Fato_Vaga_Curso_Unidade">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Vaga_Curso_Unidade">
+        <MappingFragment StoreEntitySet="Fato_Vaga_Curso_Unidade">
+          <ScalarProperty Name="id_vaga_curso_unidade" ColumnName="id_vaga_curso_unidade" />
+          <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+          <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+          <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+          <ScalarProperty Name="dt_vigencia_inicio" ColumnName="dt_vigencia_inicio" />
+          <ScalarProperty Name="dt_vigencia_fim" ColumnName="dt_vigencia_fim" />
+          <ScalarProperty Name="qtd_vagas" ColumnName="qtd_vagas" />
+          <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+          <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LogErroAplicacao">
+      <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.LogErroAplicacao">
+        <MappingFragment StoreEntitySet="LogErroAplicacao">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="NomeObjeto" ColumnName="NomeObjeto" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="DadosRegistro" ColumnName="DadosRegistro" />
+          <ScalarProperty Name="MensagemErro" ColumnName="MensagemErro" />
+          <ScalarProperty Name="Origem" ColumnName="Origem" />
+          <ScalarProperty Name="Excecao" ColumnName="Excecao" />
+          <ScalarProperty Name="CodExcecao" ColumnName="CodExcecao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

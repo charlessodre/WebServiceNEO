@@ -1,0 +1,827 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NDbfReader</name>
+    </assembly>
+    <members>
+        <member name="T:NDbfReader.BooleanColumn">
+            <summary>
+            Represents a <see cref="T:System.Boolean"/> column.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.Column`1">
+            <summary>
+            The base class for all column types.
+            </summary>
+            <typeparam name="T">The type of the column value.</typeparam>
+        </member>
+        <member name="T:NDbfReader.Column">
+            <summary>
+            The base class of all column types. Intended for internal usage. To define a custom column type, derive from the generic subclass <see cref="T:NDbfReader.Column`1"/>.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.IColumn">
+            <summary>
+            Represents a dBASE column.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.IColumn.Name">
+            <summary>
+            Gets the column name.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.IColumn.Type">
+            <summary>
+            Gets the <c>CLR</c> type of a column value.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Column.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name, offset and size.
+            </summary>
+            <param name="name">The colum name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <param name="size">The column size in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0 or <paramref name="size"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.Column.LoadValueAsObject(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded.</param>
+            <param name="encoding">The encoding that should be used when loading a value.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="P:NDbfReader.Column.Name">
+            <summary>
+            Gets the column name.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Column.Offset">
+            <summary>
+            Gets the column offset in a row in bytes.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Column.Size">
+            <summary>
+            Gets the column size in bytes.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Column.Type">
+            <summary>
+            Gets the <c>CLR</c> type of a column value.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Column`1.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name, offset and size.
+            </summary>
+            <param name="name">The colum name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <param name="size">The column size in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0 or <paramref name="size"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.Column`1.LoadValue(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded.</param>
+            <param name="encoding">The encoding that should be used when loading a value.</param>
+            <returns>A column value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="buffer"/> is <c>null</c> or <paramref name="encoding"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="buffer"/> is smaller then the size of the column.</exception>
+        </member>
+        <member name="M:NDbfReader.Column`1.LoadValueAsObject(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded.</param>
+            <param name="encoding">The encoding that should be used when loading a value.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="M:NDbfReader.Column`1.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="P:NDbfReader.Column`1.Type">
+            <summary>
+            Gets the <c>CLR</c> type of column value.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.BooleanColumn.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name and offset.
+            </summary>
+            <param name="name">The column name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.BooleanColumn.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="T:NDbfReader.DateTimeColumn">
+            <summary>
+            Represents a <see cref="T:System.DateTime"/> column.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.DateTimeColumn.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name and offset.
+            </summary>
+            <param name="name">The column name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.DateTimeColumn.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="T:NDbfReader.Reader">
+            <summary>
+            Forward-only reader of dBASE table rows.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Reader.#ctor(NDbfReader.Table,System.Text.Encoding)">
+            <summary>
+            Initializes a new instance from the specified table and encoding.
+            </summary>
+            <param name="table">The table from which rows will be read.</param>
+            <param name="encoding">The encoding of the tables's rows.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="table"/> or <paramref name="encoding"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.Read">
+            <summary>
+            Moves the reader to the next row.
+            </summary>
+            <returns><c>true</c> if there are more rows; otherwise <c>false</c>.</returns>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetString(System.String)">
+            <summary>
+            Gets a <see cref="T:System.String"/> value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A <see cref="T:System.String"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            No column with this name was found.<br/>
+            -- or --<br/>
+            The column has different type then <see cref="T:System.String"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetString(NDbfReader.IColumn)">
+            <summary>
+            Gets a <see cref="T:System.String"/> value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A <see cref="T:System.String"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column has different type then <see cref="T:System.String"/>.<br/>
+            -- or --<br/>
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetDecimal(System.String)">
+            <summary>
+            Gets a <see cref="T:System.Decimal"/> value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A <see cref="T:System.Decimal"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            No column with this name was found.<br/>
+            -- or --<br/>
+            The column has different type then <see cref="T:System.Decimal"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetDecimal(NDbfReader.IColumn)">
+            <summary>
+            Gets a <see cref="T:System.Decimal"/> value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A <see cref="T:System.Decimal"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column has different type then <see cref="T:System.Decimal"/>.<br/>
+            -- or --<br/>
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetDate(System.String)">
+            <summary>
+            Gets a <see cref="T:System.DateTime"/> value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A <see cref="T:System.DateTime"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            No column with this name was found.<br/>
+            -- or --<br/>
+            The column has different type then <see cref="T:System.DateTime"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetDate(NDbfReader.IColumn)">
+            <summary>
+            Gets a <see cref="T:System.DateTime"/> value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A <see cref="T:System.DateTime"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column has different type then <see cref="T:System.DateTime"/>.<br/>
+            -- or --<br/>
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetBoolean(System.String)">
+            <summary>
+            Gets a <see cref="T:System.Boolean"/> value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A <see cref="T:System.Boolean"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            No column with this name was found.<br/>
+            -- or --<br/>
+            The column has different type then <see cref="T:System.Boolean"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetBoolean(NDbfReader.IColumn)">
+            <summary>
+            Gets a <see cref="T:System.Boolean"/> value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A <see cref="T:System.Boolean"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column has different type then <see cref="T:System.Boolean"/>.<br/>
+            -- or --<br/>
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetInt32(System.String)">
+            <summary>
+            Gets a <see cref="T:System.Int32"/> value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A <see cref="T:System.Int32"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            No column with this name was found.<br/>
+            -- or --<br/>
+            The column has different type then <see cref="T:System.Int32"/>.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetInt32(NDbfReader.IColumn)">
+            <summary>
+            Gets a <see cref="T:System.Int32"/> value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A <see cref="T:System.Int32"/> value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column has different type then <see cref="T:System.Int32"/>.<br/>
+            -- or --<br/>
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetValue(System.String)">
+            <summary>
+            Gets a value of the specified column of the current row.
+            </summary>
+            <param name="columnName">The column name.</param>
+            <returns>A column value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetValue(NDbfReader.IColumn)">
+            <summary>
+            Gets a value of the specified column of the current row.
+            </summary>
+            <param name="column">The column.</param>
+            <returns>A column value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.ThrowIfDisposed">
+            <summary>
+            Throws <see cref="T:System.ObjectDisposedException"/> if the parent table is disposed.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Reader.GetValue``1(System.String)">
+            <summary>
+            Gets a value of the specified column of the current row.
+            </summary>
+            <typeparam name="T">The column type.</typeparam>
+            <param name="columnName">The column name.</param>
+            <returns>A column value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columnName"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Reader.GetValue``1(NDbfReader.IColumn)">
+            <summary>
+            Gets a value of the specified column of the current row.
+            </summary>
+            <typeparam name="T">The column type.</typeparam>
+            <param name="column">The column.</param>
+            <returns>A column value.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="column"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException">
+            The column is from different table instance.
+            </exception>
+            <exception cref="T:System.InvalidOperationException">
+            No row is loaded. The <see cref="M:NDbfReader.Reader.Read"/> method returned <c>false</c> or it has not been called yet.<br/>
+            -- or --<br/>
+            The underlying stream is non-seekable and columns are read out of order.
+            </exception>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="P:NDbfReader.Reader.Table">
+            <summary>
+            Gets the parent table.
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="P:NDbfReader.Reader.Encoding">
+            <summary>
+            Gets the encoding used to decode a row's content.
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">The parent table is disposed.</exception>
+        </member>
+        <member name="P:NDbfReader.Reader.Header">
+            <summary>
+            Gets the header of the parent table.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.Table">
+            <summary>
+            Represents a dBASE table.  Use one of the Open static methods to create a new instance.
+            </summary>
+            <example>
+            <code>
+            using(var table = Table.Open(@"D:\Example\table.dbf"))
+            {
+                ...
+            }
+            </code>
+            </example>
+        </member>
+        <member name="M:NDbfReader.Table.Open(System.String)">
+            <summary>
+            Opens a table from the specified file.
+            </summary>
+            <param name="path">The file to be opened.</param>
+            <returns>A table instance.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="path"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.NotSupportedException">The dBASE table constains one or more columns of unsupported type.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.Open(System.IO.Stream)">
+            <summary>
+            Opens a table from the specified stream.
+            </summary>
+            <param name="stream">The stream of dBASE table to open. The stream is closed when the returned table instance is disposed.</param>
+            <returns>A table instance.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="stream"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="stream"/> does not allow reading.</exception>
+            <exception cref="T:System.NotSupportedException">The dBASE table constains one or more columns of unsupported type.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.Open(System.IO.Stream,NDbfReader.HeaderLoader)">
+            <summary>
+            Opens a table from the specified stream with the specified header loader.
+            </summary>
+            <param name="stream">The stream of dBASE table to open. The stream is closed when the returned table instance is disposed.</param>
+            <param name="headerLoader">The header loader.</param>
+            <returns>A table instance.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="stream"/> is <c>null</c> or <paramref name="headerLoader"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentException"><paramref name="stream"/> does not allow reading.</exception>
+            <exception cref="T:System.NotSupportedException">The dBASE table constains one or more columns of unsupported type.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.#ctor(NDbfReader.Header,System.IO.BinaryReader)">
+            <summary>
+            Initializes a new instance from the specified header and binary reader.
+            </summary>
+            <param name="header">The dBASE header.</param>
+            <param name="reader">The binary reader positioned at the firsh byte of the first row.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="header"/> is <c>null</c> or <paramref name="reader"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.OpenReader">
+            <summary>
+            Opens a reader of the table with the default <c>ASCII</c> encoding. Only one reader per table can be opened.
+            </summary>
+            <returns>A reader of the table.</returns>
+            <exception cref="T:System.InvalidOperationException">Another reader of the table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.OpenReader(System.Text.Encoding)">
+            <summary>
+            Opens a reader of the table with the specified encoding. Only one reader per table can be opened.
+            </summary>
+            <param name="encoding">The encoding that is used to load the rows content.</param>
+            <returns>A reader of the table.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="encoding"/> is <c>null</c>.</exception>
+            <exception cref="T:System.InvalidOperationException">Another reader of the table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.CreateReader(System.Text.Encoding)">
+            <summary>
+            Creates a <see cref="T:NDbfReader.Reader"/> instance.
+            </summary>
+            <param name="encoding">The encoding that is passed to the new <see cref="T:NDbfReader.Reader"/> instance.</param>
+            <returns>A <see cref="T:NDbfReader.Reader"/> instance.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="encoding"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:NDbfReader.Table.Dispose">
+            <summary>
+            Closes the underlying stream.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Table.Disposing">
+            <summary>
+            Releases the underlying stream.
+            <remarks>
+            The method is called only when the <see cref="M:NDbfReader.Table.Dispose"/> method is called for the first time.
+            You MUST always call the base implementation.
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Table.ThrowIfDisposed">
+            <summary>
+            Throws a <see cref="T:System.ObjectDisposedException"/> if the table is already disposed.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Table.Columns">
+            <summary>
+            Gets a list of all columns in the table.
+            </summary>
+            <exception cref="T:System.ObjectDisposedException">The table is disposed.</exception>
+        </member>
+        <member name="P:NDbfReader.Table.LastModified">
+            <summary>
+            Gets a date the table was last modified.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Table.Header">
+            <summary>
+            Gets a dBASE header.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.DecimalColumn">
+            <summary>
+            Represents a <see cref="T:System.Decimal"/> column.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.DecimalColumn.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name and offset.
+            </summary>
+            <param name="name">The column name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <param name="size">The column size in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0 or <paramref name="size"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.DecimalColumn.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="T:NDbfReader.HeaderLoader">
+            <summary>
+            Represents a loader of dBASE header used by <see cref="T:NDbfReader.Table"/>.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.HeaderLoader.Load(System.IO.BinaryReader)">
+            <summary>
+            Loads a header from the specified binary reader.
+            </summary>
+            <param name="reader">The binary reader positioned on the first byte of a dBASE table.</param>
+            <returns>A header loaded from the specified reader.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="reader"/> is <c>null</c>.</exception>
+        </member>
+        <member name="M:NDbfReader.HeaderLoader.SkipHeaderBytes(System.IO.BinaryReader,System.Int32,System.Int32)">
+            <summary>
+            Skips the specified number of header bytes.
+            </summary>
+            <param name="reader">The reader instance.</param>
+            <param name="offset">The current offset (in bytes) from the begining of the table header.</param>
+            <param name="count">The number of bytes to skip.</param>
+        </member>
+        <member name="M:NDbfReader.HeaderLoader.LoadColumn(System.IO.BinaryReader,System.Byte,System.String,System.Int32)">
+            <summary>
+            Loads a column from the specified properties. 
+            </summary>
+            <param name="reader">The reader instance.</param>
+            <param name="type">A byte that represents the column type.</param>
+            <param name="name">The column name.</param>
+            <param name="columnOffset">The column offset (in bytes) in a row.</param>
+            <returns>A column instance.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="reader"/> or <paramref name="name"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="columnOffset"/> is &lt; 0.</exception>
+            <exception cref="T:System.NotSupportedException">value of <paramref name="type"/> parameter is not supported.</exception>
+        </member>
+        <member name="M:NDbfReader.HeaderLoader.CreateHeader(System.DateTime,System.Int32,System.Int16,System.Collections.Generic.IList{NDbfReader.IColumn})">
+            <summary>
+            Creates a header instance.
+            </summary>
+            <param name="lastModified">The date the table was last modified.</param>
+            <param name="rowCount">The number of rows.</param>
+            <param name="rowSize">The size of a row in bytes.</param>
+            <param name="columns">The loaded columns.</param>
+            <returns>A header instance.</returns>
+        </member>
+        <member name="P:NDbfReader.HeaderLoader.Default">
+            <summary>
+            Gets the default loader.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.Header">
+            <summary>
+            Represents a header of the dBASE table.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Header.#ctor(System.DateTime,System.Int32,System.Int32,System.Collections.Generic.IList{NDbfReader.IColumn})">
+            <summary>
+            Initializes a new instance with the specified rows size, rows count and columns.
+            </summary>
+            <param name="lastModified">The date the table was last modified.</param>
+            <param name="rowCount">The number of rows in a table.</param>
+            <param name="rowSize">The size of a row in bytes.</param>
+            <param name="columns">The columns in the table.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="columns"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="rowSize"/> is &lt; 0 or <paramref name="rowCount"/> is &lt; 0.</exception>
+        </member>
+        <member name="P:NDbfReader.Header.LastModified">
+            <summary>
+            Gets a date the table was last modified.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Header.RowCount">
+            <summary>
+            Gets the number of rows in the table, including deleted ones.
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Header.RowSize">
+            <summary>
+            Gets the size of a row in bytes. 
+            </summary>
+        </member>
+        <member name="P:NDbfReader.Header.Columns">
+            <summary>
+            Gets the columns.
+            </summary>
+        </member>
+        <member name="T:NDbfReader.Int32Column">
+            <summary>
+            Represents a <see cref="T:System.Int32"/> column.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.Int32Column.#ctor(System.String,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name and offset.
+            </summary>
+            <param name="name">The column name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.Int32Column.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="T:NDbfReader.NativeColumnType">
+            <summary>
+            Supported native dBASE column types.
+            </summary>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Char">
+            <summary>
+            All OEM code page characters - padded with blanks to the width of the field. 
+            </summary>
+            <remarks>C in ASCII</remarks>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Date">
+            <summary>
+            8 bytes - date stored as a string in the format YYYYMMDD.
+            </summary>
+            <remarks>D in ASCII</remarks>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Long">
+            <summary>
+            4 bytes. Leftmost bit used to indicate sign, 0 negative.
+            </summary>
+            <remarks> I in ASCII</remarks>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Logical">
+            <summary>
+            1 byte - initialized to 0x20 (space) otherwise T or F
+            </summary>
+            <remarks>L in ASCII</remarks>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Numeric">
+            <summary>
+            Number stored as a string, right justified, and padded with blanks to the width of the field. 
+            </summary>
+            <remarks>N in ASCII</remarks>
+        </member>
+        <member name="F:NDbfReader.NativeColumnType.Float">
+            <summary>
+            Number stored as a string, right justified, and padded with blanks to the width of the field. 
+            </summary>
+            <remarks>F in ASCII</remarks>
+        </member>
+        <member name="T:NDbfReader.StreamExtensions">
+            <summary>
+            Stream extensions.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.StreamExtensions.SeekForward(System.IO.Stream,System.Int32)">
+            <summary>
+            Moves the position forward within the specified stream. Supports also non seekable streams.
+            </summary>
+            <param name="stream">The stream within the position should be moved.</param>
+            <param name="offset">The byte offset relative to the current position within the stream.</param>
+            <exception cref="T:System.ArgumentNullException"> <paramref name="stream"/> is <c>null</c>.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is negative.</exception>
+        </member>
+        <member name="T:NDbfReader.StringColumn">
+            <summary>
+            Represents a <see cref="T:System.String"/> column.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.StringColumn.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Initializes a new instance with the specified name and offset.
+            </summary>
+            <param name="name">The column name.</param>
+            <param name="offset">The column offset in a row in bytes.</param>
+            <param name="size">The column size in bytes.</param>
+            <exception cref="T:System.ArgumentNullException"><paramref name="name"/> is <c>null</c> or empty.</exception>
+            <exception cref="T:System.ArgumentOutOfRangeException"><paramref name="offset"/> is &lt; 0 or <paramref name="size"/> is &lt; 0.</exception>
+        </member>
+        <member name="M:NDbfReader.StringColumn.DoLoad(System.Byte[],System.Text.Encoding)">
+            <summary>
+            Loads a value from the specified buffer.
+            </summary>
+            <param name="buffer">The byte array from which a value should be loaded. The buffer length is always at least equal to the column size.</param>
+            <param name="encoding">The encoding that should be used when loading a value. The encoding is never <c>null</c>.</param>
+            <returns>A column value.</returns>
+        </member>
+        <member name="T:NDbfReader.TableExtensions">
+            <summary>
+            Extensions for for the <see cref="T:NDbfReader.Table"/> class.
+            </summary>
+        </member>
+        <member name="M:NDbfReader.TableExtensions.AsDataTable(NDbfReader.Table)">
+            <summary>
+            Loads the DBF table into a <see cref="T:System.Data.DataTable"/> with the default ASCII encoding.
+            </summary>
+            <param name="table">The DBF table to load.</param>
+            <returns>A <see cref="T:System.Data.DataTable"/> loaded from the DBF table.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="table"/> is <c>null</c>.</exception>
+            <exception cref="T:System.InvalidOperationException">Another reader of the DBF table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The DBF table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.TableExtensions.AsDataTable(NDbfReader.Table,System.String[])">
+            <summary>
+            Loads the DBF table into a <see cref="T:System.Data.DataTable"/> with the default ASCII encoding.
+            </summary>
+            <param name="table">The DBF table to load.</param>
+            <param name="columnNames">The names of columns to load.</param>
+            <returns>A <see cref="T:System.Data.DataTable"/> loaded from the DBF table.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="table"/> is <c>null</c> or one of the column names is <c>null</c>.</exception>
+            <exception cref="T:System.InvalidOperationException">Another reader of the DBF table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The DBF table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.TableExtensions.AsDataTable(NDbfReader.Table,System.Text.Encoding)">
+            <summary>
+            Loads the DBF table into a <see cref="T:System.Data.DataTable"/>.
+            </summary>
+            <param name="table">The DBF table to load.</param>
+            <param name="encoding">The encoding that is used to load the rows content.</param>
+            <returns>A <see cref="T:System.Data.DataTable"/> loaded from the DBF table.</returns>
+            <exception cref="T:System.InvalidOperationException">Another reader of the DBF table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The DBF table is disposed.</exception>
+        </member>
+        <member name="M:NDbfReader.TableExtensions.AsDataTable(NDbfReader.Table,System.Text.Encoding,System.String[])">
+            <summary>
+            Loads the DBF table into a <see cref="T:System.Data.DataTable"/>.
+            </summary>
+            <param name="table">The DBF table to load.</param>
+            <param name="encoding">The encoding that is used to load the rows content.</param>
+            <param name="columnNames">The names of columns to load.</param>
+            <returns>A <see cref="T:System.Data.DataTable"/> loaded from the DBF table.</returns>
+            <exception cref="T:System.ArgumentNullException"><paramref name="table"/> is <c>null</c> or <paramref name="encoding"/> is <c>null</c> or one of the column names is <c>null</c>.</exception>
+            <exception cref="T:System.InvalidOperationException">Another reader of the DBF table is opened.</exception>
+            <exception cref="T:System.ObjectDisposedException">The DBF table is disposed.</exception>
+        </member>
+    </members>
+</doc>

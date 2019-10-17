@@ -1,0 +1,6 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\x64\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\x64\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\x64\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\x64\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\x64\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\x64\Release\Infrastructure.Common.pdb

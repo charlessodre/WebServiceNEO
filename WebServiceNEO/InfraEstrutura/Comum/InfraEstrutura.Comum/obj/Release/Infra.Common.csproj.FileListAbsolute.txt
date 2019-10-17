@@ -1,0 +1,20 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infra.Common.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\bin\Release\NLog.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infra.Common.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\InfraEstrutura\Comum\InfraEstrutura.Comum\obj\Release\Infrastructure.Common.pdb

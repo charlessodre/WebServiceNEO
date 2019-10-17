@@ -1,0 +1,5 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\x64\Release\ServicoArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\x64\Release\ServicoArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\x64\Release\ServicoArquivosDataSUS.ProjectInstaller.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\x64\Release\ServicoArquivosDataSUS.ServicoArquivosDataSUS.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\x64\Release\ServicoArquivosDataSUS.csproj.GenerateResource.Cache

@@ -1,0 +1,28 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.dll.config
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\NLog.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\EntityFramework.SqlServer.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\bin\Release\NLog.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Entidades\Dominio.Entidades\obj\Release\Domain.Entity.pdb

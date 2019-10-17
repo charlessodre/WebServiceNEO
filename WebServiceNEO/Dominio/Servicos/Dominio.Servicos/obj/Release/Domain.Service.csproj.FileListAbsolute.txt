@@ -1,0 +1,66 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll.config
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Service.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Infrastructure.Data.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Domain.Interfaces.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Core.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\Castle.Windsor.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\NLog.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\bin\Release\EntityFramework.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Dominio\Servicos\Dominio.Servicos\obj\Release\Domain.Service.pdb

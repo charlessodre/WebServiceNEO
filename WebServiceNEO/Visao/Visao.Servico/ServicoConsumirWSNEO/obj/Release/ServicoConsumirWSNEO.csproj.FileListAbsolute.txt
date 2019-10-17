@@ -1,0 +1,82 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Application.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Application.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.ProjectInstaller.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.ServicoConsumirWSNEO.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.csproj.GenerateResource.Cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\DotNET\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.exe.config
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.exe
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.config
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.exe
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\ServicoConsumirWSNEO.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Application.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Entity.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Interfaces.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Service.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.SqlServer.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Common.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Data.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Windsor.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Core.dll
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Application.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Entity.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Interfaces.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Domain.Service.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Common.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Infrastructure.Data.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Common.Logging.Core.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\EntityFramework.SqlServer.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\NLog.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.pdb
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Quartz.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Windsor.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\bin\Release\Castle.Core.xml
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.csprojResolveAssemblyReference.cache
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.ProjectInstaller.resources
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.ServicoConsumirWSNEO.resources
+C:\DESENVOLVIMENTO\Meus Projetos\WebServiceNEO\WebServiceNEO\Visao\Visao.Servico\ServicoConsumirWSNEO\obj\Release\ServicoConsumirWSNEO.csproj.GenerateResource.Cache

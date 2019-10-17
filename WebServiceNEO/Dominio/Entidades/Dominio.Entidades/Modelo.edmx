@@ -1,0 +1,1225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="STAGING_NEO_FUNRIOModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Dim_Aluno_Preceptor">
+          <Key>
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="idmatricula_aluno" />
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="id_aluno_preceptor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_especialidade" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_aluno_preceptor" Type="varchar" MaxLength="200" />
+          <Property Name="tipo_aluno" Type="char" MaxLength="1" />
+          <Property Name="datamatricula_aluno" Type="datetime" />
+          <Property Name="genero_aluno" Type="char" MaxLength="1" />
+          <Property Name="datanasc_aluno" Type="datetime" />
+          <Property Name="cpf_aluno" Type="varchar" MaxLength="11" />
+          <Property Name="aluno_situacao" Type="int" />
+          <Property Name="data_inativacao" Type="datetime" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Aula">
+          <Key>
+            <PropertyRef Name="id_aula" />
+          </Key>
+          <Property Name="id_aula" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_professor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="titulo_aula" Type="varchar" MaxLength="200" />
+          <Property Name="atividades_aula" Type="int" />
+          <Property Name="data_aula" Type="datetime" />
+          <Property Name="tipo_aula" Type="char" MaxLength="1" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+          <Property Name="data_fim_aula" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Curso">
+          <Key>
+            <PropertyRef Name="id_curso" />
+          </Key>
+          <Property Name="id_curso" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_curso" Type="varchar" MaxLength="200" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Especialidade">
+          <Key>
+            <PropertyRef Name="id_especialidade" />
+          </Key>
+          <Property Name="id_especialidade" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_especialidade" Type="varchar" MaxLength="100" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Hospital">
+          <Key>
+            <PropertyRef Name="id_hospital" />
+          </Key>
+          <Property Name="id_hospital" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_hospital" Type="varchar" MaxLength="100" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Modulo">
+          <Key>
+            <PropertyRef Name="id_modulo" />
+          </Key>
+          <Property Name="id_modulo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_modulo" Type="varchar" MaxLength="100" />
+          <Property Name="datainicio_modulo" Type="datetime" />
+          <Property Name="datafim_modulo" Type="datetime" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Professor">
+          <Key>
+            <PropertyRef Name="id_professor" />
+          </Key>
+          <Property Name="id_professor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_especialidade" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_professor" Type="varchar" MaxLength="200" />
+          <Property Name="genero_professor" Type="char" MaxLength="1" />
+          <Property Name="datanascimento_professor" Type="datetime" />
+          <Property Name="cpf_professor" Type="varchar" MaxLength="11" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Dim_Turma">
+          <Key>
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="id_turma" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nome_turma" Type="varchar" MaxLength="200" />
+          <Property Name="id_curso" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_modulo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_hospital" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fato_Avaliacao">
+          <Key>
+            <PropertyRef Name="id_avaliacao" />
+          </Key>
+          <Property Name="id_avaliacao" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="varchar" MaxLength="50" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" />
+          <Property Name="id_professor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_modulo" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="nota1_avaliacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="nota2_avaliacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="notaaf2_avaliacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="nota3_avaliacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="nota4_recuperacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="notafinal_avaliacao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="resultado" Type="varchar" MaxLength="100" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fato_Permanencia_Plataforma">
+          <Key>
+            <PropertyRef Name="data_entrada" />
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="idmatricula_aluno" />
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="data_entrada" Type="datetime" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="data_saida" Type="datetime" />
+          <Property Name="tempo_permanencia" Type="int" />
+          <Property Name="tipo_aluno" Type="char" MaxLength="1" />
+          <Property Name="data_insercao" Type="datetime" Nullable="false" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fato_Plantao">
+          <Key>
+            <PropertyRef Name="id_plantao" />
+          </Key>
+          <Property Name="id_plantao" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="varchar" MaxLength="50" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" />
+          <Property Name="escalainicio_plantao" Type="datetime" />
+          <Property Name="escalafim_plantao" Type="datetime" />
+          <Property Name="marcacaoinicio_plantao" Type="datetime" />
+          <Property Name="marcacaofim_plantao" Type="datetime" />
+          <Property Name="duracao_plantao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="efetivo_plantao" Type="decimal" Precision="10" Scale="2" />
+          <Property Name="abono_ds" Type="varchar" MaxLength="100" />
+          <Property Name="abono_falta" Type="char" MaxLength="1" />
+          <Property Name="abono_bolsa" Type="char" MaxLength="1" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fato_Presenca">
+          <Key>
+            <PropertyRef Name="id_aula" />
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="id_turma" />
+            <PropertyRef Name="idmatricula_aluno" />
+          </Key>
+          <Property Name="id_aula" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_turma" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="varchar" MaxLength="50" Nullable="false" />
+          <Property Name="realizada_presenca" Type="char" MaxLength="1" />
+          <Property Name="datahora_presenca" Type="datetime" />
+          <Property Name="qtd_atividades_disponiveis" Type="int" />
+          <Property Name="qtd_atividades_realizadas" Type="int" />
+          <Property Name="data_insercao" Type="datetime" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Fato_Vaga_Curso_Unidade">
+          <Key>
+            <PropertyRef Name="id_vaga_curso_unidade" />
+          </Key>
+          <Property Name="id_vaga_curso_unidade" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="id_hospital" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="id_curso" Type="varchar" MaxLength="100" Nullable="false" />
+          <Property Name="tipo_aluno" Type="char" MaxLength="1" />
+          <Property Name="dt_vigencia_inicio" Type="datetime" Nullable="false" />
+          <Property Name="dt_vigencia_fim" Type="datetime" />
+          <Property Name="qtd_vagas" Type="int" />
+          <Property Name="data_insercao" Type="datetime" Nullable="false" />
+          <Property Name="data_atualizacao" Type="datetime" />
+        </EntityType>
+        <EntityType Name="LogErroAplicacao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NomeObjeto" Type="varchar" MaxLength="50" />
+          <Property Name="Data" Type="datetime" />
+          <Property Name="DadosRegistro" Type="varchar" MaxLength="8000" />
+          <Property Name="MensagemErro" Type="varchar" MaxLength="8000" />
+          <Property Name="Origem" Type="varchar" MaxLength="200" />
+          <Property Name="Excecao" Type="varchar" MaxLength="8000" />
+          <Property Name="CodExcecao" Type="int" />
+        </EntityType>
+        <Association Name="Dim_Aluno_Fato_Permanencia">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="1" />
+          <End Role="Fato_Permanencia_Plataforma" Type="Self.Fato_Permanencia_Plataforma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Permanencia_Plataforma">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aluno__id_es__3D54C988">
+          <End Role="Dim_Especialidade" Type="Self.Dim_Especialidade" Multiplicity="1" />
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Especialidade">
+              <PropertyRef Name="id_especialidade" />
+            </Principal>
+            <Dependent Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_especialidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aluno__id_tu__36A7CBF9">
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="1" />
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Turma">
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aula__id_pro__379BF032">
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="1" />
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Professor">
+              <PropertyRef Name="id_professor" />
+            </Principal>
+            <Dependent Role="Dim_Aula">
+              <PropertyRef Name="id_professor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aula__id_tur__35B3A7C0">
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="1" />
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Turma">
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Dim_Aula">
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Profe__id_es__3E48EDC1">
+          <End Role="Dim_Especialidade" Type="Self.Dim_Especialidade" Multiplicity="1" />
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Especialidade">
+              <PropertyRef Name="id_especialidade" />
+            </Principal>
+            <Dependent Role="Dim_Professor">
+              <PropertyRef Name="id_especialidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_cu__3A785CDD">
+          <End Role="Dim_Curso" Type="Self.Dim_Curso" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Curso">
+              <PropertyRef Name="id_curso" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_curso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_ho__398438A4">
+          <End Role="Dim_Hospital" Type="Self.Dim_Hospital" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Hospital">
+              <PropertyRef Name="id_hospital" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_hospital" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_mo__3C60A54F">
+          <End Role="Dim_Modulo" Type="Self.Dim_Modulo" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Modulo">
+              <PropertyRef Name="id_modulo" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_modulo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_al__34BF8387">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="0..1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_mo__3B6C8116">
+          <End Role="Dim_Modulo" Type="Self.Dim_Modulo" Multiplicity="1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Modulo">
+              <PropertyRef Name="id_modulo" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_modulo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_pr__3890146B">
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Professor">
+              <PropertyRef Name="id_professor" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_professor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Plan__id_al__33CB5F4E">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="0..1" />
+          <End Role="Fato_Plantao" Type="Self.Fato_Plantao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Plantao">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Pres__id_al__32D73B15">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="1" />
+          <End Role="Fato_Presenca" Type="Self.Fato_Presenca" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Presenca">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Pres__id_au__31E316DC">
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="1" />
+          <End Role="Fato_Presenca" Type="Self.Fato_Presenca" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aula">
+              <PropertyRef Name="id_aula" />
+            </Principal>
+            <Dependent Role="Fato_Presenca">
+              <PropertyRef Name="id_aula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="STAGING_NEO_FUNRIOModelStoreContainer">
+          <EntitySet Name="Dim_Aluno_Preceptor" EntityType="Self.Dim_Aluno_Preceptor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Aula" EntityType="Self.Dim_Aula" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Curso" EntityType="Self.Dim_Curso" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Especialidade" EntityType="Self.Dim_Especialidade" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Hospital" EntityType="Self.Dim_Hospital" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Modulo" EntityType="Self.Dim_Modulo" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Professor" EntityType="Self.Dim_Professor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Dim_Turma" EntityType="Self.Dim_Turma" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fato_Avaliacao" EntityType="Self.Fato_Avaliacao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fato_Permanencia_Plataforma" EntityType="Self.Fato_Permanencia_Plataforma" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fato_Plantao" EntityType="Self.Fato_Plantao" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fato_Presenca" EntityType="Self.Fato_Presenca" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Fato_Vaga_Curso_Unidade" EntityType="Self.Fato_Vaga_Curso_Unidade" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LogErroAplicacao" EntityType="Self.LogErroAplicacao" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="Dim_Aluno_Fato_Permanencia" Association="Self.Dim_Aluno_Fato_Permanencia">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Permanencia_Plataforma" EntitySet="Fato_Permanencia_Plataforma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aluno__id_es__3D54C988" Association="Self.FK__Dim_Aluno__id_es__3D54C988">
+            <End Role="Dim_Especialidade" EntitySet="Dim_Especialidade" />
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aluno__id_tu__36A7CBF9" Association="Self.FK__Dim_Aluno__id_tu__36A7CBF9">
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aula__id_pro__379BF032" Association="Self.FK__Dim_Aula__id_pro__379BF032">
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aula__id_tur__35B3A7C0" Association="Self.FK__Dim_Aula__id_tur__35B3A7C0">
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Profe__id_es__3E48EDC1" Association="Self.FK__Dim_Profe__id_es__3E48EDC1">
+            <End Role="Dim_Especialidade" EntitySet="Dim_Especialidade" />
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_cu__3A785CDD" Association="Self.FK__Dim_Turma__id_cu__3A785CDD">
+            <End Role="Dim_Curso" EntitySet="Dim_Curso" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_ho__398438A4" Association="Self.FK__Dim_Turma__id_ho__398438A4">
+            <End Role="Dim_Hospital" EntitySet="Dim_Hospital" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_mo__3C60A54F" Association="Self.FK__Dim_Turma__id_mo__3C60A54F">
+            <End Role="Dim_Modulo" EntitySet="Dim_Modulo" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_al__34BF8387" Association="Self.FK__Fato_Aval__id_al__34BF8387">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_mo__3B6C8116" Association="Self.FK__Fato_Aval__id_mo__3B6C8116">
+            <End Role="Dim_Modulo" EntitySet="Dim_Modulo" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_pr__3890146B" Association="Self.FK__Fato_Aval__id_pr__3890146B">
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Plan__id_al__33CB5F4E" Association="Self.FK__Fato_Plan__id_al__33CB5F4E">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Plantao" EntitySet="Fato_Plantao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Pres__id_al__32D73B15" Association="Self.FK__Fato_Pres__id_al__32D73B15">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Presenca" EntitySet="Fato_Presenca" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Pres__id_au__31E316DC" Association="Self.FK__Fato_Pres__id_au__31E316DC">
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+            <End Role="Fato_Presenca" EntitySet="Fato_Presenca" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="STAGING_NEO_FUNRIOModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Dim_Aluno_Preceptor">
+          <Key>
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="idmatricula_aluno" />
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="id_aluno_preceptor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_especialidade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_aluno_preceptor" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="tipo_aluno" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="datamatricula_aluno" Type="DateTime" Precision="3" />
+          <Property Name="genero_aluno" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="datanasc_aluno" Type="DateTime" Precision="3" />
+          <Property Name="cpf_aluno" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="aluno_situacao" Type="Int32" />
+          <Property Name="data_inativacao" Type="DateTime" Precision="3" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Fato_Permanencia_Plataforma" Relationship="Self.Dim_Aluno_Fato_Permanencia" FromRole="Dim_Aluno_Preceptor" ToRole="Fato_Permanencia_Plataforma" />
+          <NavigationProperty Name="Dim_Especialidade" Relationship="Self.FK__Dim_Aluno__id_es__3D54C988" FromRole="Dim_Aluno_Preceptor" ToRole="Dim_Especialidade" />
+          <NavigationProperty Name="Dim_Turma" Relationship="Self.FK__Dim_Aluno__id_tu__36A7CBF9" FromRole="Dim_Aluno_Preceptor" ToRole="Dim_Turma" />
+          <NavigationProperty Name="Fato_Avaliacao" Relationship="Self.FK__Fato_Aval__id_al__34BF8387" FromRole="Dim_Aluno_Preceptor" ToRole="Fato_Avaliacao" />
+          <NavigationProperty Name="Fato_Plantao" Relationship="Self.FK__Fato_Plan__id_al__33CB5F4E" FromRole="Dim_Aluno_Preceptor" ToRole="Fato_Plantao" />
+          <NavigationProperty Name="Fato_Presenca" Relationship="Self.FK__Fato_Pres__id_al__32D73B15" FromRole="Dim_Aluno_Preceptor" ToRole="Fato_Presenca" />
+        </EntityType>
+        <EntityType Name="Dim_Aula">
+          <Key>
+            <PropertyRef Name="id_aula" />
+          </Key>
+          <Property Name="id_aula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_professor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="titulo_aula" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="atividades_aula" Type="Int32" />
+          <Property Name="data_aula" Type="DateTime" Precision="3" />
+          <Property Name="tipo_aula" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <Property Name="data_fim_aula" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Professor" Relationship="Self.FK__Dim_Aula__id_pro__379BF032" FromRole="Dim_Aula" ToRole="Dim_Professor" />
+          <NavigationProperty Name="Dim_Turma" Relationship="Self.FK__Dim_Aula__id_tur__35B3A7C0" FromRole="Dim_Aula" ToRole="Dim_Turma" />
+          <NavigationProperty Name="Fato_Presenca" Relationship="Self.FK__Fato_Pres__id_au__31E316DC" FromRole="Dim_Aula" ToRole="Fato_Presenca" />
+        </EntityType>
+        <EntityType Name="Dim_Curso">
+          <Key>
+            <PropertyRef Name="id_curso" />
+          </Key>
+          <Property Name="id_curso" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_curso" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Turma" Relationship="Self.FK__Dim_Turma__id_cu__3A785CDD" FromRole="Dim_Curso" ToRole="Dim_Turma" />
+        </EntityType>
+        <EntityType Name="Dim_Especialidade">
+          <Key>
+            <PropertyRef Name="id_especialidade" />
+          </Key>
+          <Property Name="id_especialidade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_especialidade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.FK__Dim_Aluno__id_es__3D54C988" FromRole="Dim_Especialidade" ToRole="Dim_Aluno_Preceptor" />
+          <NavigationProperty Name="Dim_Professor" Relationship="Self.FK__Dim_Profe__id_es__3E48EDC1" FromRole="Dim_Especialidade" ToRole="Dim_Professor" />
+        </EntityType>
+        <EntityType Name="Dim_Hospital">
+          <Key>
+            <PropertyRef Name="id_hospital" />
+          </Key>
+          <Property Name="id_hospital" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_hospital" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Turma" Relationship="Self.FK__Dim_Turma__id_ho__398438A4" FromRole="Dim_Hospital" ToRole="Dim_Turma" />
+        </EntityType>
+        <EntityType Name="Dim_Modulo">
+          <Key>
+            <PropertyRef Name="id_modulo" />
+          </Key>
+          <Property Name="id_modulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_modulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="datainicio_modulo" Type="DateTime" Precision="3" />
+          <Property Name="datafim_modulo" Type="DateTime" Precision="3" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Turma" Relationship="Self.FK__Dim_Turma__id_mo__3C60A54F" FromRole="Dim_Modulo" ToRole="Dim_Turma" />
+          <NavigationProperty Name="Fato_Avaliacao" Relationship="Self.FK__Fato_Aval__id_mo__3B6C8116" FromRole="Dim_Modulo" ToRole="Fato_Avaliacao" />
+        </EntityType>
+        <EntityType Name="Dim_Professor">
+          <Key>
+            <PropertyRef Name="id_professor" />
+          </Key>
+          <Property Name="id_professor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_especialidade" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_professor" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="genero_professor" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="datanascimento_professor" Type="DateTime" Precision="3" />
+          <Property Name="cpf_professor" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aula" Relationship="Self.FK__Dim_Aula__id_pro__379BF032" FromRole="Dim_Professor" ToRole="Dim_Aula" />
+          <NavigationProperty Name="Dim_Especialidade" Relationship="Self.FK__Dim_Profe__id_es__3E48EDC1" FromRole="Dim_Professor" ToRole="Dim_Especialidade" />
+          <NavigationProperty Name="Fato_Avaliacao" Relationship="Self.FK__Fato_Aval__id_pr__3890146B" FromRole="Dim_Professor" ToRole="Fato_Avaliacao" />
+        </EntityType>
+        <EntityType Name="Dim_Turma">
+          <Key>
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nome_turma" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="id_curso" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_modulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_hospital" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.FK__Dim_Aluno__id_tu__36A7CBF9" FromRole="Dim_Turma" ToRole="Dim_Aluno_Preceptor" />
+          <NavigationProperty Name="Dim_Aula" Relationship="Self.FK__Dim_Aula__id_tur__35B3A7C0" FromRole="Dim_Turma" ToRole="Dim_Aula" />
+          <NavigationProperty Name="Dim_Curso" Relationship="Self.FK__Dim_Turma__id_cu__3A785CDD" FromRole="Dim_Turma" ToRole="Dim_Curso" />
+          <NavigationProperty Name="Dim_Hospital" Relationship="Self.FK__Dim_Turma__id_ho__398438A4" FromRole="Dim_Turma" ToRole="Dim_Hospital" />
+          <NavigationProperty Name="Dim_Modulo" Relationship="Self.FK__Dim_Turma__id_mo__3C60A54F" FromRole="Dim_Turma" ToRole="Dim_Modulo" />
+        </EntityType>
+        <EntityType Name="Fato_Avaliacao">
+          <Key>
+            <PropertyRef Name="id_avaliacao" />
+          </Key>
+          <Property Name="id_avaliacao" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="id_professor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_modulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="nota1_avaliacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="nota2_avaliacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="notaaf2_avaliacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="nota3_avaliacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="nota4_recuperacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="notafinal_avaliacao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="resultado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.FK__Fato_Aval__id_al__34BF8387" FromRole="Fato_Avaliacao" ToRole="Dim_Aluno_Preceptor" />
+          <NavigationProperty Name="Dim_Modulo" Relationship="Self.FK__Fato_Aval__id_mo__3B6C8116" FromRole="Fato_Avaliacao" ToRole="Dim_Modulo" />
+          <NavigationProperty Name="Dim_Professor" Relationship="Self.FK__Fato_Aval__id_pr__3890146B" FromRole="Fato_Avaliacao" ToRole="Dim_Professor" />
+        </EntityType>
+        <EntityType Name="Fato_Permanencia_Plataforma">
+          <Key>
+            <PropertyRef Name="data_entrada" />
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="idmatricula_aluno" />
+            <PropertyRef Name="id_turma" />
+          </Key>
+          <Property Name="data_entrada" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="id_aluno_preceptor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="data_saida" Type="DateTime" Precision="3" />
+          <Property Name="tempo_permanencia" Type="Int32" />
+          <Property Name="tipo_aluno" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.Dim_Aluno_Fato_Permanencia" FromRole="Fato_Permanencia_Plataforma" ToRole="Dim_Aluno_Preceptor" />
+        </EntityType>
+        <EntityType Name="Fato_Plantao">
+          <Key>
+            <PropertyRef Name="id_plantao" />
+          </Key>
+          <Property Name="id_plantao" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="escalainicio_plantao" Type="DateTime" Precision="3" />
+          <Property Name="escalafim_plantao" Type="DateTime" Precision="3" />
+          <Property Name="marcacaoinicio_plantao" Type="DateTime" Precision="3" />
+          <Property Name="marcacaofim_plantao" Type="DateTime" Precision="3" />
+          <Property Name="duracao_plantao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="efetivo_plantao" Type="Decimal" Precision="10" Scale="2" />
+          <Property Name="abono_ds" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="abono_falta" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="abono_bolsa" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.FK__Fato_Plan__id_al__33CB5F4E" FromRole="Fato_Plantao" ToRole="Dim_Aluno_Preceptor" />
+        </EntityType>
+        <EntityType Name="Fato_Presenca">
+          <Key>
+            <PropertyRef Name="id_aula" />
+            <PropertyRef Name="id_aluno_preceptor" />
+            <PropertyRef Name="id_turma" />
+            <PropertyRef Name="idmatricula_aluno" />
+          </Key>
+          <Property Name="id_aula" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_aluno_preceptor" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_turma" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="idmatricula_aluno" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="realizada_presenca" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="datahora_presenca" Type="DateTime" Precision="3" />
+          <Property Name="qtd_atividades_disponiveis" Type="Int32" />
+          <Property Name="qtd_atividades_realizadas" Type="Int32" />
+          <Property Name="data_insercao" Type="DateTime" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+          <NavigationProperty Name="Dim_Aluno_Preceptor" Relationship="Self.FK__Fato_Pres__id_al__32D73B15" FromRole="Fato_Presenca" ToRole="Dim_Aluno_Preceptor" />
+          <NavigationProperty Name="Dim_Aula" Relationship="Self.FK__Fato_Pres__id_au__31E316DC" FromRole="Fato_Presenca" ToRole="Dim_Aula" />
+        </EntityType>
+        <EntityType Name="Fato_Vaga_Curso_Unidade">
+          <Key>
+            <PropertyRef Name="id_vaga_curso_unidade" />
+          </Key>
+          <Property Name="id_vaga_curso_unidade" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="id_hospital" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="id_curso" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="tipo_aluno" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+          <Property Name="dt_vigencia_inicio" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="dt_vigencia_fim" Type="DateTime" Precision="3" />
+          <Property Name="qtd_vagas" Type="Int32" />
+          <Property Name="data_insercao" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="data_atualizacao" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityType Name="LogErroAplicacao">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NomeObjeto" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Data" Type="DateTime" Precision="3" />
+          <Property Name="DadosRegistro" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="MensagemErro" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="Origem" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+          <Property Name="Excecao" Type="String" MaxLength="8000" FixedLength="false" Unicode="false" />
+          <Property Name="CodExcecao" Type="Int32" />
+        </EntityType>
+        <Association Name="Dim_Aluno_Fato_Permanencia">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="1" />
+          <End Role="Fato_Permanencia_Plataforma" Type="Self.Fato_Permanencia_Plataforma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Permanencia_Plataforma">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aluno__id_es__3D54C988">
+          <End Role="Dim_Especialidade" Type="Self.Dim_Especialidade" Multiplicity="1" />
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Especialidade">
+              <PropertyRef Name="id_especialidade" />
+            </Principal>
+            <Dependent Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_especialidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aluno__id_tu__36A7CBF9">
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="1" />
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Turma">
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_al__34BF8387">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="0..1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Plan__id_al__33CB5F4E">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="0..1" />
+          <End Role="Fato_Plantao" Type="Self.Fato_Plantao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Plantao">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Pres__id_al__32D73B15">
+          <End Role="Dim_Aluno_Preceptor" Type="Self.Dim_Aluno_Preceptor" Multiplicity="1" />
+          <End Role="Fato_Presenca" Type="Self.Fato_Presenca" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aluno_Preceptor">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Fato_Presenca">
+              <PropertyRef Name="id_aluno_preceptor" />
+              <PropertyRef Name="idmatricula_aluno" />
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aula__id_pro__379BF032">
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="1" />
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Professor">
+              <PropertyRef Name="id_professor" />
+            </Principal>
+            <Dependent Role="Dim_Aula">
+              <PropertyRef Name="id_professor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Aula__id_tur__35B3A7C0">
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="1" />
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Turma">
+              <PropertyRef Name="id_turma" />
+            </Principal>
+            <Dependent Role="Dim_Aula">
+              <PropertyRef Name="id_turma" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Pres__id_au__31E316DC">
+          <End Role="Dim_Aula" Type="Self.Dim_Aula" Multiplicity="1" />
+          <End Role="Fato_Presenca" Type="Self.Fato_Presenca" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Aula">
+              <PropertyRef Name="id_aula" />
+            </Principal>
+            <Dependent Role="Fato_Presenca">
+              <PropertyRef Name="id_aula" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_cu__3A785CDD">
+          <End Role="Dim_Curso" Type="Self.Dim_Curso" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Curso">
+              <PropertyRef Name="id_curso" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_curso" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Profe__id_es__3E48EDC1">
+          <End Role="Dim_Especialidade" Type="Self.Dim_Especialidade" Multiplicity="1" />
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Especialidade">
+              <PropertyRef Name="id_especialidade" />
+            </Principal>
+            <Dependent Role="Dim_Professor">
+              <PropertyRef Name="id_especialidade" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_ho__398438A4">
+          <End Role="Dim_Hospital" Type="Self.Dim_Hospital" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Hospital">
+              <PropertyRef Name="id_hospital" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_hospital" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Dim_Turma__id_mo__3C60A54F">
+          <End Role="Dim_Modulo" Type="Self.Dim_Modulo" Multiplicity="1" />
+          <End Role="Dim_Turma" Type="Self.Dim_Turma" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Modulo">
+              <PropertyRef Name="id_modulo" />
+            </Principal>
+            <Dependent Role="Dim_Turma">
+              <PropertyRef Name="id_modulo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_mo__3B6C8116">
+          <End Role="Dim_Modulo" Type="Self.Dim_Modulo" Multiplicity="1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Modulo">
+              <PropertyRef Name="id_modulo" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_modulo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK__Fato_Aval__id_pr__3890146B">
+          <End Role="Dim_Professor" Type="Self.Dim_Professor" Multiplicity="1" />
+          <End Role="Fato_Avaliacao" Type="Self.Fato_Avaliacao" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Dim_Professor">
+              <PropertyRef Name="id_professor" />
+            </Principal>
+            <Dependent Role="Fato_Avaliacao">
+              <PropertyRef Name="id_professor" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Dim_Aluno_Preceptor" EntityType="Self.Dim_Aluno_Preceptor" />
+          <EntitySet Name="Dim_Aula" EntityType="Self.Dim_Aula" />
+          <EntitySet Name="Dim_Curso" EntityType="Self.Dim_Curso" />
+          <EntitySet Name="Dim_Especialidade" EntityType="Self.Dim_Especialidade" />
+          <EntitySet Name="Dim_Hospital" EntityType="Self.Dim_Hospital" />
+          <EntitySet Name="Dim_Modulo" EntityType="Self.Dim_Modulo" />
+          <EntitySet Name="Dim_Professor" EntityType="Self.Dim_Professor" />
+          <EntitySet Name="Dim_Turma" EntityType="Self.Dim_Turma" />
+          <EntitySet Name="Fato_Avaliacao" EntityType="Self.Fato_Avaliacao" />
+          <EntitySet Name="Fato_Permanencia_Plataforma" EntityType="Self.Fato_Permanencia_Plataforma" />
+          <EntitySet Name="Fato_Plantao" EntityType="Self.Fato_Plantao" />
+          <EntitySet Name="Fato_Presenca" EntityType="Self.Fato_Presenca" />
+          <EntitySet Name="Fato_Vaga_Curso_Unidade" EntityType="Self.Fato_Vaga_Curso_Unidade" />
+          <EntitySet Name="LogErroAplicacao" EntityType="Self.LogErroAplicacao" />
+          <AssociationSet Name="Dim_Aluno_Fato_Permanencia" Association="Self.Dim_Aluno_Fato_Permanencia">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Permanencia_Plataforma" EntitySet="Fato_Permanencia_Plataforma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aluno__id_es__3D54C988" Association="Self.FK__Dim_Aluno__id_es__3D54C988">
+            <End Role="Dim_Especialidade" EntitySet="Dim_Especialidade" />
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aluno__id_tu__36A7CBF9" Association="Self.FK__Dim_Aluno__id_tu__36A7CBF9">
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_al__34BF8387" Association="Self.FK__Fato_Aval__id_al__34BF8387">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Plan__id_al__33CB5F4E" Association="Self.FK__Fato_Plan__id_al__33CB5F4E">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Plantao" EntitySet="Fato_Plantao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Pres__id_al__32D73B15" Association="Self.FK__Fato_Pres__id_al__32D73B15">
+            <End Role="Dim_Aluno_Preceptor" EntitySet="Dim_Aluno_Preceptor" />
+            <End Role="Fato_Presenca" EntitySet="Fato_Presenca" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aula__id_pro__379BF032" Association="Self.FK__Dim_Aula__id_pro__379BF032">
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Aula__id_tur__35B3A7C0" Association="Self.FK__Dim_Aula__id_tur__35B3A7C0">
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Pres__id_au__31E316DC" Association="Self.FK__Fato_Pres__id_au__31E316DC">
+            <End Role="Dim_Aula" EntitySet="Dim_Aula" />
+            <End Role="Fato_Presenca" EntitySet="Fato_Presenca" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_cu__3A785CDD" Association="Self.FK__Dim_Turma__id_cu__3A785CDD">
+            <End Role="Dim_Curso" EntitySet="Dim_Curso" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Profe__id_es__3E48EDC1" Association="Self.FK__Dim_Profe__id_es__3E48EDC1">
+            <End Role="Dim_Especialidade" EntitySet="Dim_Especialidade" />
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_ho__398438A4" Association="Self.FK__Dim_Turma__id_ho__398438A4">
+            <End Role="Dim_Hospital" EntitySet="Dim_Hospital" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Dim_Turma__id_mo__3C60A54F" Association="Self.FK__Dim_Turma__id_mo__3C60A54F">
+            <End Role="Dim_Modulo" EntitySet="Dim_Modulo" />
+            <End Role="Dim_Turma" EntitySet="Dim_Turma" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_mo__3B6C8116" Association="Self.FK__Fato_Aval__id_mo__3B6C8116">
+            <End Role="Dim_Modulo" EntitySet="Dim_Modulo" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+          <AssociationSet Name="FK__Fato_Aval__id_pr__3890146B" Association="Self.FK__Fato_Aval__id_pr__3890146B">
+            <End Role="Dim_Professor" EntitySet="Dim_Professor" />
+            <End Role="Fato_Avaliacao" EntitySet="Fato_Avaliacao" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="STAGING_NEO_FUNRIOModelStoreContainer" CdmEntityContainer="Entities">
+          <EntitySetMapping Name="Dim_Aluno_Preceptor">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Aluno_Preceptor">
+              <MappingFragment StoreEntitySet="Dim_Aluno_Preceptor">
+                <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+                <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+                <ScalarProperty Name="nome_aluno_preceptor" ColumnName="nome_aluno_preceptor" />
+                <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+                <ScalarProperty Name="datamatricula_aluno" ColumnName="datamatricula_aluno" />
+                <ScalarProperty Name="genero_aluno" ColumnName="genero_aluno" />
+                <ScalarProperty Name="datanasc_aluno" ColumnName="datanasc_aluno" />
+                <ScalarProperty Name="cpf_aluno" ColumnName="cpf_aluno" />
+                <ScalarProperty Name="aluno_situacao" ColumnName="aluno_situacao" />
+                <ScalarProperty Name="data_inativacao" ColumnName="data_inativacao" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Aula">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Aula">
+              <MappingFragment StoreEntitySet="Dim_Aula">
+                <ScalarProperty Name="id_aula" ColumnName="id_aula" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+                <ScalarProperty Name="titulo_aula" ColumnName="titulo_aula" />
+                <ScalarProperty Name="atividades_aula" ColumnName="atividades_aula" />
+                <ScalarProperty Name="data_aula" ColumnName="data_aula" />
+                <ScalarProperty Name="tipo_aula" ColumnName="tipo_aula" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+                <ScalarProperty Name="data_fim_aula" ColumnName="data_fim_aula" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Curso">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Curso">
+              <MappingFragment StoreEntitySet="Dim_Curso">
+                <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+                <ScalarProperty Name="nome_curso" ColumnName="nome_curso" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Especialidade">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Especialidade">
+              <MappingFragment StoreEntitySet="Dim_Especialidade">
+                <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+                <ScalarProperty Name="nome_especialidade" ColumnName="nome_especialidade" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Hospital">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Hospital">
+              <MappingFragment StoreEntitySet="Dim_Hospital">
+                <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+                <ScalarProperty Name="nome_hospital" ColumnName="nome_hospital" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Modulo">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Modulo">
+              <MappingFragment StoreEntitySet="Dim_Modulo">
+                <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+                <ScalarProperty Name="nome_modulo" ColumnName="nome_modulo" />
+                <ScalarProperty Name="datainicio_modulo" ColumnName="datainicio_modulo" />
+                <ScalarProperty Name="datafim_modulo" ColumnName="datafim_modulo" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Professor">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Professor">
+              <MappingFragment StoreEntitySet="Dim_Professor">
+                <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+                <ScalarProperty Name="id_especialidade" ColumnName="id_especialidade" />
+                <ScalarProperty Name="nome_professor" ColumnName="nome_professor" />
+                <ScalarProperty Name="genero_professor" ColumnName="genero_professor" />
+                <ScalarProperty Name="datanascimento_professor" ColumnName="datanascimento_professor" />
+                <ScalarProperty Name="cpf_professor" ColumnName="cpf_professor" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Dim_Turma">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Dim_Turma">
+              <MappingFragment StoreEntitySet="Dim_Turma">
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="nome_turma" ColumnName="nome_turma" />
+                <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+                <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+                <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fato_Avaliacao">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Avaliacao">
+              <MappingFragment StoreEntitySet="Fato_Avaliacao">
+                <ScalarProperty Name="id_avaliacao" ColumnName="id_avaliacao" />
+                <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+                <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="id_professor" ColumnName="id_professor" />
+                <ScalarProperty Name="id_modulo" ColumnName="id_modulo" />
+                <ScalarProperty Name="nota1_avaliacao" ColumnName="nota1_avaliacao" />
+                <ScalarProperty Name="nota2_avaliacao" ColumnName="nota2_avaliacao" />
+                <ScalarProperty Name="notaaf2_avaliacao" ColumnName="notaaf2_avaliacao" />
+                <ScalarProperty Name="nota3_avaliacao" ColumnName="nota3_avaliacao" />
+                <ScalarProperty Name="nota4_recuperacao" ColumnName="nota4_recuperacao" />
+                <ScalarProperty Name="notafinal_avaliacao" ColumnName="notafinal_avaliacao" />
+                <ScalarProperty Name="resultado" ColumnName="resultado" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fato_Permanencia_Plataforma">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Permanencia_Plataforma">
+              <MappingFragment StoreEntitySet="Fato_Permanencia_Plataforma">
+                <ScalarProperty Name="data_entrada" ColumnName="data_entrada" />
+                <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+                <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="data_saida" ColumnName="data_saida" />
+                <ScalarProperty Name="tempo_permanencia" ColumnName="tempo_permanencia" />
+                <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fato_Plantao">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Plantao">
+              <MappingFragment StoreEntitySet="Fato_Plantao">
+                <ScalarProperty Name="id_plantao" ColumnName="id_plantao" />
+                <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+                <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="escalainicio_plantao" ColumnName="escalainicio_plantao" />
+                <ScalarProperty Name="escalafim_plantao" ColumnName="escalafim_plantao" />
+                <ScalarProperty Name="marcacaoinicio_plantao" ColumnName="marcacaoinicio_plantao" />
+                <ScalarProperty Name="marcacaofim_plantao" ColumnName="marcacaofim_plantao" />
+                <ScalarProperty Name="duracao_plantao" ColumnName="duracao_plantao" />
+                <ScalarProperty Name="efetivo_plantao" ColumnName="efetivo_plantao" />
+                <ScalarProperty Name="abono_ds" ColumnName="abono_ds" />
+                <ScalarProperty Name="abono_falta" ColumnName="abono_falta" />
+                <ScalarProperty Name="abono_bolsa" ColumnName="abono_bolsa" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fato_Presenca">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Presenca">
+              <MappingFragment StoreEntitySet="Fato_Presenca">
+                <ScalarProperty Name="id_aula" ColumnName="id_aula" />
+                <ScalarProperty Name="id_aluno_preceptor" ColumnName="id_aluno_preceptor" />
+                <ScalarProperty Name="id_turma" ColumnName="id_turma" />
+                <ScalarProperty Name="idmatricula_aluno" ColumnName="idmatricula_aluno" />
+                <ScalarProperty Name="realizada_presenca" ColumnName="realizada_presenca" />
+                <ScalarProperty Name="datahora_presenca" ColumnName="datahora_presenca" />
+                <ScalarProperty Name="qtd_atividades_disponiveis" ColumnName="qtd_atividades_disponiveis" />
+                <ScalarProperty Name="qtd_atividades_realizadas" ColumnName="qtd_atividades_realizadas" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Fato_Vaga_Curso_Unidade">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.Fato_Vaga_Curso_Unidade">
+              <MappingFragment StoreEntitySet="Fato_Vaga_Curso_Unidade">
+                <ScalarProperty Name="id_vaga_curso_unidade" ColumnName="id_vaga_curso_unidade" />
+                <ScalarProperty Name="id_hospital" ColumnName="id_hospital" />
+                <ScalarProperty Name="id_curso" ColumnName="id_curso" />
+                <ScalarProperty Name="tipo_aluno" ColumnName="tipo_aluno" />
+                <ScalarProperty Name="dt_vigencia_inicio" ColumnName="dt_vigencia_inicio" />
+                <ScalarProperty Name="dt_vigencia_fim" ColumnName="dt_vigencia_fim" />
+                <ScalarProperty Name="qtd_vagas" ColumnName="qtd_vagas" />
+                <ScalarProperty Name="data_insercao" ColumnName="data_insercao" />
+                <ScalarProperty Name="data_atualizacao" ColumnName="data_atualizacao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LogErroAplicacao">
+            <EntityTypeMapping TypeName="STAGING_NEO_FUNRIOModel.LogErroAplicacao">
+              <MappingFragment StoreEntitySet="LogErroAplicacao">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="NomeObjeto" ColumnName="NomeObjeto" />
+                <ScalarProperty Name="Data" ColumnName="Data" />
+                <ScalarProperty Name="DadosRegistro" ColumnName="DadosRegistro" />
+                <ScalarProperty Name="MensagemErro" ColumnName="MensagemErro" />
+                <ScalarProperty Name="Origem" ColumnName="Origem" />
+                <ScalarProperty Name="Excecao" ColumnName="Excecao" />
+                <ScalarProperty Name="CodExcecao" ColumnName="CodExcecao" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

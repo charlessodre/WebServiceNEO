@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d28afa4da12d46d99ca9c48d000f4cb3" Name="Diagram1">
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Aluno_Preceptor" Width="1.5" PointX="5.25" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Aula" Width="1.5" PointX="8.25" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Curso" Width="1.5" PointX="0.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Especialidade" Width="1.5" PointX="3" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Hospital" Width="1.5" PointX="0.75" PointY="15" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Modulo" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Professor" Width="1.5" PointX="8.25" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Dim_Turma" Width="1.5" PointX="3" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Fato_Avaliacao" Width="1.5" PointX="10.5" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Fato_Permanencia_Plataforma" Width="1.5" PointX="7.5" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Fato_Plantao" Width="1.5" PointX="7.5" PointY="19.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Fato_Presenca" Width="1.5" PointX="13.5" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.Fato_Vaga_Curso_Unidade" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="STAGING_NEO_FUNRIOModel.LogErroAplicacao" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.Dim_Aluno_Fato_Permanencia" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Aluno__id_es__3D54C988" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Aluno__id_tu__36A7CBF9" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Aval__id_al__34BF8387" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Plan__id_al__33CB5F4E" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Pres__id_al__32D73B15" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Aula__id_pro__379BF032" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Aula__id_tur__35B3A7C0" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Pres__id_au__31E316DC" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Turma__id_cu__3A785CDD" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Profe__id_es__3E48EDC1" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Turma__id_ho__398438A4" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Dim_Turma__id_mo__3C60A54F" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Aval__id_mo__3B6C8116" ManuallyRouted="false" />
+        <AssociationConnector Association="STAGING_NEO_FUNRIOModel.FK__Fato_Aval__id_pr__3890146B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

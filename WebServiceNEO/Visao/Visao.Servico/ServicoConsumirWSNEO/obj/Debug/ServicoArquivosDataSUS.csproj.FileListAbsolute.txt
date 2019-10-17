@@ -1,0 +1,104 @@
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\NLog.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\NLog.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Quartz.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Application.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.Core.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Common.Logging.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\NLog.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Quartz.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Quartz.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Application.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\bin\Debug\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.ServicoArquivosDataSUS.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csproj.GenerateResource.Cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\DataSUS\UI\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.ServicoArquivosDataSUS.resources
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csproj.GenerateResource.Cache
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\NLog.config
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Application.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Core.dll
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Application.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Core.xml
+C:\Users\charles.sodre\Downloads\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\Meus Projetos\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\NLog.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe.config
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Application.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Service.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Core.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Application.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Entity.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Interfaces.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Domain.Service.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Common.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Infrastructure.Data.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\ArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Windsor.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\Castle.Core.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csprojResolveAssemblyReference.cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.ServicoArquivosDataSUS.resources
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.csproj.GenerateResource.Cache
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.exe
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.pdb
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\charles.sodre\Documents\Meus Arquivos\Charles\PROJETOS .NET\ArquivosDataSUS\ArquivosDataSUS\Visao\Visao.Servico\ServicoArquivosDataSUS\obj\Debug\ServicoArquivosDataSUS.ProjectInstaller.resources
